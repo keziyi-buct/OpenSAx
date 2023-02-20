@@ -164,7 +164,7 @@ def ks(data, label, test_size=0.2):
 # 分别使用一个回归、一个分类的公开数据集做为example
 def LoadNirtest(type):
     
-    Nirdata = pd.read_csv('/root/OpenSA4/Data/Rgs/LUCAS.SOIL_corr.csv')
+    Nirdata = pd.read_csv('/root/soil_OpenSAx/Data/Rgs/LUCAS.SOIL_corr.csv')
     data = Nirdata.values[:5000,:-9]
     label = Nirdata.values[:5000, -5]
     print(data.shape)
